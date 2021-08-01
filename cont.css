@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.total {
+  width: 80vw;
+}
+.fa-bars {
+  display: none;
+}
+#cancel {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .total {
+    width: 95vw;
+  }
+  #nav {
+    display: none;
+    width: 70vw;
+  }
+  #nav a {
+    display: block;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .fa-bars {
+    display: block;
+  }
+  #logo_div {
+    display: flex;
+    justify-content: space-between;
+  }
+}

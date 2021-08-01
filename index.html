@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nandish</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="total">
+      <!-- *********************************nav-bar**************************** -->
+      <header class="text-gray-600 body-font">
+        <div
+          class="
+            container
+            mx-auto
+            flex flex-wrap
+            p-5
+            flex-col
+            md:flex-row
+          "
+        >
+          <a
+          id="logo_div"
+            class="
+              flex
+              title-font
+              font-medium
+              items-center
+              text-gray-900
+              mb-4
+              md:mb-0
+            "
+          >
+            <span id="logo" class="ml-3 text-xl">Nandish</span>
+            <i id="bars" class="fas fa-bars"></i>
+            <i id="cancel" class="fas fa-times"></i>
+          </a>
+          <nav
+          id="nav"
+            class="
+              md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400
+              flex flex-wrap
+              items-center
+              text-base
+              justify-center
+              top_nav
+            "
+          >
+            <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+            <a href="abt.html" class="mr-5 hover:text-gray-900">About</a>
+            <a href="cont.html" class="mr-5 hover:text-gray-900">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <!-- *****************************top-page***************************************************** -->
+      <section class="text-gray-600 body-font">
+        <div
+          class="
+            container
+            mx-auto
+            flex
+            px-5
+            py-24
+            md:flex-row
+            flex-col
+            items-center
+          "
+        >
+          <div
+            class="
+              lg:flex-grow
+              md:w-1/2
+              lg:pr-24
+              md:pr-16
+              flex flex-col
+              md:items-start md:text-left
+              mb-16
+              md:mb-0
+              items-center
+              text-center
+            "
+          >
+            <h1
+              class="
+                title-font
+                sm:text-4xl
+                text-3xl
+                mb-4
+                font-medium
+                text-gray-900
+              "
+            >
+              NANDISH
+              <br class="hidden lg:inline-block" />HR-Recruiter and
+              Web-Developer
+            </h1>
+            <p class="mb-8 leading-relaxed">
+              Hi welcome to my portfolio, This is a very simple portfolio
+              created by me i hope you like it scroll down below to see my
+              skills on both the Web Development skills and the HR skills.
+              <marquee>nandish1199@gmail.com | 6362693203</marquee>
+            </p>
+            <svg id="sign_svg" viewBox="0 0 438 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="sign3" d="M69 285C69 273.315 69.1728 261.458 67.7778 249.833C65.8793 234.013 59.8928 217.493 55.3333 202.222C52.4919 192.706 49 184.158 49 174.111C49 170.333 49 166.556 49 162.778C49 151.225 62.4551 174.066 63.7778 176.556C68.9657 186.321 75.3852 195.447 81.7222 204.5C85.7683 210.28 88.7821 216.019 92.5 221.889C97.1757 229.272 100.751 237.751 106.944 243.944C116.7 253.7 120.12 234.092 121.722 226.722C124.716 212.951 124.146 198.573 124 184.556C123.825 167.785 122.052 151.587 117.056 135.556C110.967 116.021 103.818 94.9453 92.4444 77.6667C82.434 62.4585 64.8513 62.607 50 70.5555C32.7949 79.7639 20.6321 99.4986 14 117.222C5.11207 140.974 0.710101 175.535 12 199.056C21.7065 219.278 39.1412 234.352 61.5555 236.444C74.283 237.632 87.7133 237.652 100.444 236.556C116.821 235.145 126.467 230.821 138.667 219.889C158.817 201.832 163.635 172.935 164.778 147.222C165.168 138.437 165 129.625 165 120.833C165 116.627 165.308 113 160.278 113C122.954 113 117 152.79 117 182.833C117 190.764 119.998 192 127.5 192C139.159 192 144.354 185.772 147.778 174.556C152.693 158.453 154 141.196 154 124.444C154 109.581 161.072 137.137 161.778 139.889C165.268 153.495 166.642 166.731 166.944 180.778C166.965 181.72 166.347 196.04 167.222 188.778C168.492 178.238 170 167.989 170 157.333C170 149.628 170.328 140.384 173.056 133.111C175.134 127.569 175.676 127 181.389 127C187.32 127 190.567 142.987 191.556 147.222C193.21 154.313 194.676 169.096 202.5 172.778C207.049 174.919 216.423 173 221.222 173C228.133 173 234.989 173.566 241.556 171C250.889 167.352 256.494 161.243 258.222 151.222C260.309 139.118 260.415 126.465 258 114.389C257.201 110.395 254.784 104.708 251.056 102.611C246.229 99.8964 233.316 101.494 228.5 103.056C213.04 108.07 213 126.892 213 140.333C213 145.892 211.911 155.817 219.778 156C230.233 156.243 235.13 154.972 241.333 145.667C249.272 133.758 252.456 119.024 255.5 105.278C259.109 88.9809 260 73.5052 260 56.8889C260 42.4815 260 28.0741 260 13.6667C260 -12.8844 255.668 66.6739 256.056 93.2222C256.393 116.352 258.689 136.266 269.111 157.111C270.904 160.697 273.316 168.711 277.778 169.778C281.095 170.571 285.557 170.283 288.944 169.944C293.351 169.504 293.617 165.504 294.222 161.778C296.404 148.337 296 134.787 296 121.222C296 109.158 295.919 97.5625 293.778 85.6667C291.788 74.6098 290.069 87.1741 290 91.8889C289.938 96.0944 286.81 116.927 292.556 117C305.056 117.158 319.483 117.832 330.389 110.444C341.917 102.635 342 84.677 342 72.0555C342 70.9632 343.129 54.1121 341 54C334.304 53.6476 330.49 54.1427 329 61.2222C327.605 67.8504 328 74.595 328 81.3333C328 87.8773 327.156 94.8912 329.056 101.222C335.095 121.354 336 144.012 336 164.833C336 168.265 336.721 174.624 333 176.778C330.186 178.407 330.149 173.893 330.278 172.5C333.733 135.068 351.637 101.098 365.944 67.0555C373.601 48.837 378.87 30.2342 384 11.2222C384.138 10.7106 385.728 5.17998 386.056 5.99999C391.085 18.5738 389.914 35.1476 390 48.3333C390.073 59.4175 390.591 70.594 387.944 81.4444C385.529 91.3485 382.9 100.871 381.222 111C380.104 117.751 378.983 124.688 378.111 131.444C377.659 134.951 377.271 137.606 380.778 133.556C387.03 126.333 390.964 116.855 396.278 108.944C400.736 102.307 406.091 92.5006 412.556 87.7222C416.638 84.7046 426.512 83.1111 431.444 83.1111C433.298 83.1111 431.084 93.7567 430.889 94.3333C426.264 108.019 416.061 119.118 405.944 129C394.022 140.645 381.366 151.196 366.222 158.444C354.281 164.16 341.995 169.002 330.111 174.944C299.897 190.052 271.274 207.468 240.222 220.889C217.679 230.632 197.171 244.758 174.778 254.556C151.742 264.634 223.714 242.881 247.833 235.778C279.621 226.416 311.493 218.42 342.444 206.444C358.905 200.075 374.96 192.771 391.333 186.222C404.47 180.968 418.699 178.434 432 174" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            <div class="flex flex-wrap justify-center">
+              <button
+                class="
+                  inline-flex
+                  text-white
+                  bg-indigo-500
+                  border-0
+                  py-2
+                  px-6
+                  focus:outline-none
+                  hover:bg-indigo-600
+                  rounded
+                  text-lg
+                  m-2
+                "
+              >
+                <a href="#headingHr">HR SKILLS</a>
+              </button>
+              <button
+                class="
+                  ml-4
+                  inline-flex
+                  text-white
+                  bg-indigo-500
+                  border-0
+                  py-2
+                  px-6
+                  focus:outline-none
+                  hover:bg-indigo-600
+                  rounded
+                  text-lg
+                  m-2
+                "
+              >
+              <a href="#headingDev">WEB DEVELOPMENT SKILLS</a>
+              </button>
+              <button
+                class="
+                ml-4
+                inline-flex
+                text-black
+                bg-gray-300
+                border-0
+                py-2
+                px-6
+                focus:outline-none
+                hover:bg-gray-400
+                rounded
+                text-lg
+                m-2
+                "
+              >
+                CONTACT ME
+              </button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img
+              class="object-cover object-center rounded"
+              alt="hero"
+              src="mypro.jpg"
+              loading="lazy"
+            />
+            
+          </div>
+        </div>
+      </section>
+      <!-- ***********************HR-SKILLS**************************************************** -->
+      <div id="headingHr"><h1>HR SKILLS</h1></div>
+      <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="mt-1 text-gray-500 text-sm"
+                  ><i class="fas fa-spinner"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  RECRUITMENT PROCESS
+                </h2>
+                <p class="leading-relaxed">
+                  Analyzing man power needs, Searching, Screening, Interview,
+                  Training, Selection, On Boarding
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="mt-1 text-gray-500 text-sm"
+                  ><i class="fas fa-money-bill-wave"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  KEY SKILLS
+                </h2>
+                <p class="leading-relaxed">
+                  Pay Roll, Compensation, Provident Fund, ESI, Gratuity,
+                  Grievance Handling.
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="text-sm text-gray-500"
+                  ><i class="fas fa-laptop"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  HR TECHNICAL SKILLS
+                </h2>
+                <p class="leading-relaxed">
+                  MS-Excel, MS-Word, MS-PowerPoint, Recruit’em , Multi
+                  highlighter.
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="text-sm text-gray-500"
+                  ><i class="fab fa-linkedin-in"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  JOB PORTALS
+                </h2>
+                <p class="leading-relaxed">
+                  Naukri, linkedIn, Indeed, Shine, Monster.
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="text-sm text-gray-500"
+                  ><i class="fas fa-feather-alt"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  EMAIL WRITING
+                </h2>
+                <p class="leading-relaxed">Informal, Semi-Formal, Formal.</p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="text-sm text-gray-500"
+                  ><i class="fas fa-user-plus"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  ON BOARDING FORMALITIES
+                </h2>
+                <p class="leading-relaxed">
+                  Introducing employee to the organization, Training, Good
+                  ethics building, Introduction of Goals, Vision and Mission,
+                  Giving assistance like(Laptop, Mobile).
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="text-sm text-gray-500"
+                  ><i class="fas fa-user-minus"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  OFF BOARDING FORMALITIES
+                </h2>
+                <p class="leading-relaxed">
+                  Collecting back assistance like(Laptop, Mobile) ,Document
+                  departure with letter , Hiring new employees for vacant place.
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="text-sm text-gray-500"
+                  ><i class="fas fa-dove"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  PERFORMANCE APPRAISAL
+                </h2>
+                <p class="leading-relaxed">
+                  Management by objectives, 360 Degree Feedback, Psychological
+                  Appraisal, Behaviorally Anchored Rating Scale.
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700"
+                  >HR SKILL</span
+                >
+                <span class="text-sm text-gray-500"
+                  ><i class="fas fa-walking"></i
+                ></span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                  LABOUR LAWS
+                </h2>
+                <p class="leading-relaxed">
+                  Fair Wages, Working Hours, Demolition of Child Labor, Health
+                  and Safety
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- *********************DEV SKILLS*************************************************** -->
+       <div id="headingDev"><h1>WEB DEVELOPMENT SKILLS</h1></div>
+       <section class="text-gray-600 body-font overflow-hidden">
+         <div class="container px-5 py-24 mx-auto">
+           <div class="-my-8 divide-y-2 divide-gray-100">
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >FRONT END</span
+                 >
+                 <span class="mt-1 text-gray-500 text-sm"
+                   ><i class="fas fa-code"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   HTML 5
+                 </h2>
+                 <p class="leading-relaxed">
+                   Basic Tags, Lists, Form, Tables, Iframe.
+                 </p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >FRONT END</span
+                 >
+                 <span class="mt-1 text-gray-500 text-sm"
+                   ><i class="fab fa-css3-alt"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   CSS 4
+                 </h2>
+                 <p class="leading-relaxed">
+                   Box Model, Posistions, Animation, Flex, Media query, Pseudo
+                   Selecters, Transforms, Transitions
+                 </p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >FRONT END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fab fa-bootstrap"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   BOOTSTRAP
+                 </h2>
+                 <p class="leading-relaxed">Components, Classes, Grid</p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >FRONT END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fab fa-js"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   JAVASCRIPT
+                 </h2>
+                 <p class="leading-relaxed">
+                   es6, BOM, DOM, Promises, Async Await, Try Catch, loops,
+                   Conditional Statements, Modules, Classes, Spread,
+                   Destructuring and many more
+                 </p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >FRONT END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fab fa-js"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   REACTJS
+                 </h2>
+                 <p class="leading-relaxed">
+                   JSX, Components, Hooks, Routing, NPM
+                 </p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >BACK END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fab fa-node-js"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   NODEJS
+                 </h2>
+                 <p class="leading-relaxed">
+                   File System, Rest API, CRUD Operations, Server, Events
+                 </p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >BACK END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fab fa-node-js"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   EXPRESSJS
+                 </h2>
+                 <p class="leading-relaxed">
+                   Template Engine, CRUD operations, Server, Rest API
+                 </p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >BACK END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fas fa-database"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   MONGODB
+                 </h2>
+                 <p class="leading-relaxed">
+                   JSON, BSON, Compass, CRUD Operations, Schema
+                 </p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >BACK END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fas fa-database"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   MONGOOSE
+                 </h2>
+                 <p class="leading-relaxed">Rest API, CRUD Operations</p>
+               </div>
+             </div>
+             <div class="py-8 flex flex-wrap md:flex-nowrap">
+               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                 <span class="font-semibold title-font text-gray-700"
+                   >BACK END</span
+                 >
+                 <span class="text-sm text-gray-500"
+                   ><i class="fab fa-git-square"></i><i class="fab fa-github"></i
+                 ></span>
+               </div>
+               <div class="md:flex-grow">
+                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                   GIT & GITHUB
+                 </h2>
+                 <p class="leading-relaxed">
+                   INIT, ADD, COMMIT, SSH KEY, CLONE, PULL, PUSH, BRANCHES.
+                 </p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <!-- *********************************benefits*************************** -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Things I Am Good At</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Things whatever i have mentioned here in this whole website are true to the best of my knowledge. </p>
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium">Good Communication Skills</span>
+            </div>
+          </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Ready To Relocate</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Can Handle Stress Effeciently</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Polite And Respectful</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Full Stack Developer</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Quick Learner</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Have Good Ethics</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <!-- **********************RECRUITMENT PROCESS****************************************************************** -->
+      <div id="heading"><h1>RECRUITMENT PROCESS</h1></div>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap w-full">
+            <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+              <div class="flex relative pb-12">
+                <div
+                  class="
+                    h-full
+                    w-10
+                    absolute
+                    inset-0
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div
+                  class="
+                    flex-shrink-0
+                    w-10
+                    h-10
+                    rounded-full
+                    bg-indigo-500
+                    inline-flex
+                    items-center
+                    justify-center
+                    text-white
+                    relative
+                    z-10
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="
+                      font-medium
+                      title-font
+                      text-sm text-gray-900
+                      mb-1
+                      tracking-wider
+                    "
+                  >
+                    ANANYSING MAN POWER NEEDS
+                  </h2>
+                  <p class="leading-relaxed">
+                    Here we analze the man power needs in the organisation, And
+                    we also analyze on which domain the man power is needed like
+                    Management, IT, Marketing e.t.c.
+                  </p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div
+                  class="
+                    h-full
+                    w-10
+                    absolute
+                    inset-0
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div
+                  class="
+                    flex-shrink-0
+                    w-10
+                    h-10
+                    rounded-full
+                    bg-indigo-500
+                    inline-flex
+                    items-center
+                    justify-center
+                    text-white
+                    relative
+                    z-10
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="
+                      font-medium
+                      title-font
+                      text-sm text-gray-900
+                      mb-1
+                      tracking-wider
+                    "
+                  >
+                    SEARCHING
+                  </h2>
+                  <p class="leading-relaxed">
+                    Here we search for Qualified & Eligible candidates from the
+                    job portals like (Naukri, Monster, LinkedIn, Indeed) and
+                    also from the Campus interviews.
+                  </p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div
+                  class="
+                    h-full
+                    w-10
+                    absolute
+                    inset-0
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div
+                  class="
+                    flex-shrink-0
+                    w-10
+                    h-10
+                    rounded-full
+                    bg-indigo-500
+                    inline-flex
+                    items-center
+                    justify-center
+                    text-white
+                    relative
+                    z-10
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle cx="12" cy="5" r="3"></circle>
+                    <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="
+                      font-medium
+                      title-font
+                      text-sm text-gray-900
+                      mb-1
+                      tracking-wider
+                    "
+                  >
+                    SCREENING
+                  </h2>
+                  <p class="leading-relaxed">
+                    Here we filter candidates by Experience, Qualification and
+                    by Projects they have made And for the filtered candidate we
+                    assig the next interwiew round.
+                  </p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div
+                  class="
+                    h-full
+                    w-10
+                    absolute
+                    inset-0
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div
+                  class="
+                    flex-shrink-0
+                    w-10
+                    h-10
+                    rounded-full
+                    bg-indigo-500
+                    inline-flex
+                    items-center
+                    justify-center
+                    text-white
+                    relative
+                    z-10
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="
+                      font-medium
+                      title-font
+                      text-sm text-gray-900
+                      mb-1
+                      tracking-wider
+                    "
+                  >
+                    INTERVIEW
+                  </h2>
+                  <p class="leading-relaxed">
+                    Here we check candidate's Interest, Skills, Fluency in
+                    Language,Expected CTC, Confidence and whether he/she is
+                    willing to relocate to the desired job location.
+                  </p>
+                </div>
+              </div>
+              <div class="flex relative">
+                <div
+                  class="
+                    flex-shrink-0
+                    w-10
+                    h-10
+                    rounded-full
+                    bg-indigo-500
+                    inline-flex
+                    items-center
+                    justify-center
+                    text-white
+                    relative
+                    z-10
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="
+                      font-medium
+                      title-font
+                      text-sm text-gray-900
+                      mb-1
+                      tracking-wider
+                    "
+                  >
+                    SELECTION & ONBOARDING
+                  </h2>
+                  <p class="leading-relaxed">
+                    Here we train the candidates on Good ethics ,Rules &
+                    Regulations and About the Organization, And after this we
+                    select the candidates & Introduce them to the organisation.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img
+              class="
+                lg:w-3/5
+                md:w-1/2
+                object-cover object-center
+                rounded-lg
+                md:mt-0
+                mt-12
+              "
+              src="recruitment.jpg"
+              alt="step"
+            />
+          </div>
+        </div>
+      </section>
+     
+      <!-- ***********************MY-PROJECTS**************************************** -->
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h2
+              class="
+                text-xs text-indigo-500
+                tracking-widest
+                font-medium
+                title-font
+                mb-1
+              "
+            >
+              WEBSITE'S CREATED BY ME
+            </h2>
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font text-gray-900"
+            >
+              HOSTED IN GITHUB
+            </h1>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+              <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col card_pro">
+                <div class="flex items-center mb-3">
+                  <div
+                    class="
+                      w-8
+                      h-8
+                      mr-5
+                      inline-flex
+                      items-center
+                      justify-center
+                      rounded-full
+                      text-white
+                      flex-shrink-0
+                    "
+                  >
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <h2 class="text-gray-900 text-lg title-font font-medium">
+                    My Portfolio Website
+                  </h2>
+                </div>
+                <div class="flex-grow">
+                  <p class="leading-relaxed text-base">
+                      <div id="small_icon">
+                        <i class="fas fa-code small mx-2"></i>
+                            <i class="fab fa-html5 small mx-2"></i>
+                            
+                            <i class="fab fa-js small mx-2"></i>
+                      </div>
+                    Its my portfolio website built on HTML, CSS, BOOTSTRAP, JAVASCRIPT.
+                  </p>
+                  <a href="https://nandish1199.github.io/portfolio/" class="mt-3 text-indigo-500 inline-flex items-center"
+                    >Visit Site <i class="fas fa-long-arrow-alt-right visit"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col card_pro">
+                  <div class="flex items-center mb-3">
+                    <div
+                      class="
+                        w-8
+                        h-8
+                        mr-5
+                        inline-flex
+                        items-center
+                        justify-center
+                        rounded-full
+                        text-white
+                        flex-shrink-0
+                      "
+                    >
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <h2 class="text-gray-900 text-lg title-font font-medium">
+                      Competative website
+                    </h2>
+                  </div>
+                  <div class="flex-grow">
+                    <p class="leading-relaxed text-base">
+                        <div id="small_icon">
+                          <i class="fas fa-code small mx-2"></i>
+                              <i class="fab fa-html5 small mx-2"></i>
+                              <i class="fab fa-js small mx-2"></i>
+                        </div>
+                      Its a tutorial website built on HTML, CSS, JAVASCRIPT.
+                    </p>
+                    <a href="https://nandish1199.github.io/competative/" class="mt-3 text-indigo-500 inline-flex items-center"
+                      >Visit Site <i class="fas fa-long-arrow-alt-right visit"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col card_pro">
+                  <div class="flex items-center mb-3">
+                    <div
+                      class="
+                        w-8
+                        h-8
+                        mr-5
+                        inline-flex
+                        items-center
+                        justify-center
+                        rounded-full
+                        text-white
+                        flex-shrink-0
+                      "
+                    >
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <h2 class="text-gray-900 text-lg title-font font-medium">
+                      Weather API
+                    </h2>
+                  </div>
+                  <div class="flex-grow">
+                    <p class="leading-relaxed text-base">
+                        <div id="small_icon">
+                          <i class="fas fa-code small mx-2"></i>
+                          <i class="fab fa-bootstrap small mx-2"></i>
+                              <i class="fab fa-html5 small mx-2"></i>
+                              <i class="fab fa-js small mx-2"></i>
+                        </div>
+                      Its a tutorial website built on HTML, CSS, JAVASCRIPT, REACT, OPEN WEATHER API.
+                    </p>
+                    <a href="https://nandish1199.github.io/weather/" class="mt-3 text-indigo-500 inline-flex items-center"
+                      >Visit Site <i class="fas fa-long-arrow-alt-right visit"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col card_pro">
+                  <div class="flex items-center mb-3">
+                    <div
+                      class="
+                        w-8
+                        h-8
+                        mr-5
+                        inline-flex
+                        items-center
+                        justify-center
+                        rounded-full
+                        text-white
+                        flex-shrink-0
+                      "
+                    >
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <h2 class="text-gray-900 text-lg title-font font-medium">
+                      Model Website UI/Ux Design
+                    </h2>
+                  </div>
+                  <div class="flex-grow">
+                    <p class="leading-relaxed text-base">
+                        <div id="small_icon">
+                          <i class="fas fa-code small mx-2"></i>
+                              <i class="fab fa-html5 small mx-2"></i>
+                              <i class="fab fa-bootstrap small mx-2"></i>
+                              <i class="fab fa-js small mx-2"></i>
+                        </div>
+                      Its a Model website built on HTML, CSS, JAVASCRIPT to show advanced CSS skills.
+                    </p>
+                    <a href="https://nandish1199.github.io/aditi5/" class="mt-3 text-indigo-500 inline-flex items-center"
+                      >Visit Site <i class="fas fa-long-arrow-alt-right visit"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col card_pro">
+                  <div class="flex items-center mb-3">
+                    <div
+                      class="
+                        w-8
+                        h-8
+                        mr-5
+                        inline-flex
+                        items-center
+                        justify-center
+                        rounded-full
+                        text-white
+                        flex-shrink-0
+                      "
+                    >
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <h2 class="text-gray-900 text-lg title-font font-medium">
+                      Rest API
+                    </h2>
+                  </div>
+                  <div class="flex-grow">
+                    <p class="leading-relaxed text-base">
+                        <div id="small_icon">
+                          <i class="fas fa-code small mx-2"></i>
+                              <i class="fab fa-html5 small mx-2"></i>
+                              <i class="fab fa-bootstrap small mx-2"></i>
+                              <i class="fab fa-js small mx-2"></i>
+                        </div>
+                      Its Rest API built on NodeJS, ExpressJS MongoDB, Mongoose, Postman API.
+                    </p>
+                    <a href="https://nandish1199.github.io/restapi/" class="mt-3 text-indigo-500 inline-flex items-center"
+                      >Visit Site <i class="fas fa-long-arrow-alt-right visit"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col card_pro">
+                  <div class="flex items-center mb-3">
+                    <div
+                      class="
+                        w-8
+                        h-8
+                        mr-5
+                        inline-flex
+                        items-center
+                        justify-center
+                        rounded-full
+                        text-white
+                        flex-shrink-0
+                      "
+                    >
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <h2 class="text-gray-900 text-lg title-font font-medium">
+                      Fitness Website
+                    </h2>
+                  </div>
+                  <div class="flex-grow">
+                    <p class="leading-relaxed text-base">
+                        <div id="small_icon">
+                          <i class="fas fa-code small mx-2"></i>
+                              <i class="fab fa-html5 small mx-2"></i>
+                              <i class="fab fa-bootstrap small mx-2"></i>
+                              <i class="fab fa-js small mx-2"></i>
+                        </div>
+                        Its a fitness website built on HTML, CSS, JAVASCRIPT.
+                    </p>
+                    <a href="https://nandish1199.github.io/fitness/" class="mt-3 text-indigo-500 inline-flex items-center"
+                      >Visit Site <i class="fas fa-long-arrow-alt-right visit"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- ***************education***************************************** -->
+      <div id="heading"><h1>EDUCATION</h1></div>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <i class="fas fa-school"></i>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">10th Standard</h2>
+          <p class="leading-relaxed">KE Board School Dharwad</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <i class="fas fa-chalkboard"></i>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">12th Standard</h2>
+          <p class="leading-relaxed">HIPU Science College Dharwad [Physics, Maths, Chemistry, Biology]</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">B.Sc.</h2>
+          <p class="leading-relaxed">Karnataka University Dharwad [Computer Science, Maths, Physics]</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <i class="fas fa-user-graduate"></i>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">MBA</h2>
+          <p class="leading-relaxed">VSK University [HR, Finance]</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <!-- **************************footer************************ -->
+
+<footer class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      
+      <span class="ml-3 text-xl">Nandish</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Thank You —
+      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">nandish1199@gmail.com</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+    </div>
+    <script>
+      
+      document.getElementById("bars").addEventListener("click", fun1);
+          function fun1(){
+              document.getElementById("nav").style.display="block";
+              document.getElementById("cancel").style.display="block";
+              document.getElementById("bars").style.display="none";
+      }
+      document.getElementById("cancel").addEventListener("click", fun2);
+          function fun2(){
+              document.getElementById("nav").style.display="none";
+              document.getElementById("cancel").style.display="none";
+              document.getElementById("bars").style.display="block";
+      }
+      
+         </script>
+  </body>
+</html>

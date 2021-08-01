@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.total {
+  width: 80vw;
+}
+#heading,
+#headingHr,
+#headingDev {
+  width: 100%;
+  text-align: center;
+}
+#heading h1,
+#headingHr h1,
+#headingDev h1 {
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+i {
+  font-size: 25px;
+  padding: 9px;
+  color: rgb(47, 0, 255);
+  border-radius: 50%;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+#small_icon {
+  width: 100%;
+  /* text-align: center; */
+}
+i.small {
+  font-size: 5px;
+  padding: 5px;
+  box-shadow: none;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.fa-code {
+  color: red;
+}
+.fa-html5 {
+  color: royalblue;
+}
+.fa-js {
+  color: orange;
+}
+i.visit {
+  font-size: 20px;
+  padding: 9px;
+  color: rgb(187, 115, 238);
+  border-radius: 50%;
+  box-shadow: none;
+  margin-bottom: -3px;
+}
+.card_pro {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+#sign_svg {
+  width: 100px;
+}
+#sign3 {
+  width: 50px;
+  stroke-dasharray: 3159;
+  stroke-dashoffset: 3159;
+  animation: signn 4s ease infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes signn {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.fa-bars {
+  display: none;
+}
+#cancel {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .total {
+    width: 95vw;
+  }
+  #nav {
+    display: none;
+    width: 70vw;
+  }
+  #nav a {
+    display: block;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .fa-bars {
+    display: block;
+  }
+  #logo_div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
